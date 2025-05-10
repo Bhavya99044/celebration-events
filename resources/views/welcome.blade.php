@@ -777,8 +777,8 @@
   }
   </style>
 </head>
-<body class="bg-[#FFF6DE] font-sans flex justify-center items-center min-h-screen px-4 py-6">
-  <div class="max-w-[390px] w-full bg-white rounded-[2rem] shadow-2xl overflow-hidden relative">
+<body class="bg-[#FFF6DE] font-sans flex justify-center items-center min-h-screen ">
+  <div class="max-w-[400px] w-full bg-white rounded-[2rem] shadow-2xl overflow-hidden relative">
 
     <!-- Confetti Container -->
     <div id="confetti-container"></div>

@@ -21,14 +21,11 @@ COPY . .
 # Install Laravel dependencies
 RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 
-# Generate Laravel app key
-RUN php artisan key:generate --force
-
-# Cache config and routes
-RUN php artisan config:cache && php artisan route:cache
+# Cache config and routes (optional — comment out if error persists)
+# RUN php artisan config:cache && php artisan route:cache
 
 # Expose port
 EXPOSE 10000
 
-# Serve Laravel from public folder
-CMD php -S 0.0.0.0:10000 -t public
+# Start Laravel built-in server & generate app key
+CMD php artisan key:generate --force && php -S 0.0.0.0:10000 -t public
