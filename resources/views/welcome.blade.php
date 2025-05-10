@@ -1220,7 +1220,7 @@
     setInterval(() => {
       currentIndex = (currentIndex + 1) % totalImages;
       updateCarousel();
-    }, 3000);
+    }, 5000);
   });
   </script>
 
