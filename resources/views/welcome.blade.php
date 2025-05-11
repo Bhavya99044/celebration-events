@@ -826,7 +826,7 @@
         <h2 class="text-2xl font-script text-[#E1733A]">Celebration is</h2>
         <h1 class="text-4xl font-bold font-serif text-[#800020] mt-2">Celebration Events</h1>
         <p class="mt-3 text-gray-700 text-sm font-light">
-         From haldi to sangeet your one stop destination for all the celebrations magic.
+         From mehendi to reception your one stop destination for all the celebrations magic.
         </p>
       </div>
 
